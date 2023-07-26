@@ -1,0 +1,315 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #f3f6f9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.card {
+  /* Style for "RECTANGLE" */
+  width: 1269px;
+  height: 786px;
+  box-shadow: 0 59px 111px rgba(154, 155, 176, 0.17);
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.card1{
+  /* Style for "RECTANGLE" */
+width: 1269px;
+height: 704px;
+box-shadow: 0 59px 111px rgba(154, 155, 176, 0.17);
+border-radius: 50px;
+background-color: #ffffff;
+}
+
+.smallCard {
+  /* Style for "RECTANGLE" */
+width: 600px;
+height: 421px;
+box-shadow: 0 59px 111px rgba(154, 155, 176, 0.17);
+border-radius: 50px;
+background-color: #ffffff;
+}
+
+.button {
+  /* Style for "RECTANGLE" */
+width: 282px;
+height: 103px;
+border-radius: 52px;
+background-color: #ee225d;
+}
+
+.buttonText {
+  /* Style for "- 2.32%" */
+width: 187px;
+height: 40px;
+color: #ffffff;
+font-family: "SF Pro Display";
+font-size: 54px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "-,  2.32%" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.currencyText {
+  /* Style for "3.529020 B" */
+width: 821px;
+height: 92px;
+color: #4c5968;
+font-family: "SF Pro Display - Semibold";
+font-size: 125px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "3, .529020" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.descriptionText {
+  /* Style for "$19.153 US" */
+width: 431px;
+height: 64px;
+color: #aeb8c4;
+font-family: "SF Pro Display - Semibold";
+font-size: 75px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "$, 19.153" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.bitcoinText {
+  /* Style for "Bitcoin" */
+width: 159px;
+height: 40px;
+color: #4c5968;
+font-family: "SF Pro Display - Semibold";
+font-size: 53px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "B, itcoin" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.bitcoinSymbol {
+  /* Style for "BTC" */
+width: 97px;
+height: 40px;
+color: #aeb8c4;
+font-family: "SF Pro Display - Semibold";
+font-size: 53px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "B, TC" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.balance {
+  /* Style for "BALANCE BI" */
+width: 823px;
+height: 217px;
+}
+
+.symbolColor {
+  /* Style for "CIRCLE" */
+width: 162px;
+height: 162px;
+background-color: #fa9c21;
+background-image: linear-gradient(to top, #ff8f17 0%, #ffc843 100%);
+}
+
+.symbolColor1 {
+  /* Style for "CIRCLE" */
+width: 162px;
+height: 162px;
+background-color: #2376ff;
+background-image: linear-gradient(to top, #1d72f1 0%, #17c8fc 100%);
+}
+
+.symbolColor2 {
+  /* Style for "CIRCLE" */
+width: 160px;
+height: 160px;
+background-color: #18af64;
+background-image: linear-gradient(to top, #fb23a2 0%, #ff677c 100%);
+}
+
+.buyBTCText {
+  /* Style for "Buy BTC" */
+width: 199px;
+height: 50px;
+color: #4c5968;
+font-family: "SF Pro Display - Semibold";
+font-size: 50px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "B, uy BTC" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.bitcoinWalletText {
+  /* Style for "Bitcoin Wa" */
+width: 604px;
+height: 80px;
+color: #4c5968;
+font-family: "SF Pro Display - Semibold";
+font-size: 88px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "B, itcoin" */
+font-style: normal;
+letter-spacing: -0.91px;
+line-height: normal;
+}
+
+.header {
+  /* Style for "BACKGROUND" */
+  width: 1453px;
+  height: 389px;
+background-color: #ffffff;
+}
+
+.footer {
+  /* Style for "BACKGROUND" */
+width: 1453px;
+height: 389px;
+background-color: #ffffff;
+}
+
+.sortbydate {
+  /* Style for "SORT BY DA" */
+width: 1203px;
+height: 102px;
+}
+
+.sortbydateText {
+/* Style for "Week" */
+width: 122px;
+height: 37px;
+color: #aeb8c4;
+font-family: "SF Pro Display - Semibold";
+font-size: 50px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.text {
+  /* Style for "Lower: $4." */
+width: 322px;
+height: 43px;
+color: #9a9bb0;
+font-family: "SF Pro Display - Semibold";
+font-size: 50px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "L, ower: $" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.text1 {
+  /* Style for "Higher: $6" */
+width: 330px;
+height: 49px;
+color: #aeb8c4;
+font-family: "SF Pro Display - Semibold";
+font-size: 50px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "H, igher:" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.circle {
+  /* Style for "CIRCLE MAG" */
+width: 28px;
+height: 28px;
+background-color: #ef2755;
+}
+
+.corner-section {
+
+  margin-left: 320px; /* Adjust the right position as needed */
+}
+
+.text2 {
+/* Style for "1 BTC = $5" */
+width: 352px;
+height: 46px;
+color: #4c5968;
+font-family: "SF Pro Display - Semibold";
+font-size: 54px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "1,  BTC =" */
+font-style: normal;
+letter-spacing: -0.45px;
+line-height: normal;
+}
