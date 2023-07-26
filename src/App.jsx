@@ -20,20 +20,20 @@ function App() {
             'md:pl-[4.8rem] md:p-[6.6rem] md:pb-[20rem] pt-[0rem] px-[3.6rem] '
         )}>
           <div className="mb-[1.2rem]">
-            <Card className='pt-[79px] pb-[111px] pl-[93px] pr-[93px]' />
+            <Card className='pt-[79px] pb-[111px] pl-[93px] pr-[93px] animate-pulse' />
           </div>
           <div className="mb-[6.2rem]">
-            <SortByDate className=' pl-[93px] pb-[111px]' />
+            <SortByDate className=' pl-[93px] pb-[111px] animate-pulse' />
           </div>
           <div className="mb-[4.2rem]">
-            <GraphCard className='' />
+            <GraphCard className='animate-pulse' />
           </div>
           <div className='flex space-x-16 -mb-[4rem]'>
           <div className="">
-            <SmallCard className='flex items-center justify-center' image='/icons/ICON_BITCOIN.svg' symbol='symbolColor1 rounded-full' />
+            <SmallCard className='flex items-center justify-center animate-pulse' image='/icons/ICON_BITCOIN.svg' symbol='symbolColor1 rounded-full' />
           </div>
           <div className="">
-            <SmallCard className='flex items-center justify-center' image='/icons/ICON_BITCOIN.svg' symbol='symbolColor2 rounded-full' />
+            <SmallCard className='flex items-center justify-center animate-pulse' image='/icons/ICON_BITCOIN.svg' symbol='symbolColor2 rounded-full' />
           </div>
           </div>
         </div>
